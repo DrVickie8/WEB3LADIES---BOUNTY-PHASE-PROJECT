@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #2b076e;
+}
+
+section {
+  font-family: "Rubik", sans-serif;
+}
+
+h2 {
+  font-size: bold;
+  font-weight: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+
+p {
+  color: whitesmoke;
+  padding-top: 2rem;
+  font-size: 16px;
+}
+
+.feature {
+  padding: 5rem;
+  text-align: center;
+  /* display: block; */
+}
+
+h2.feature {
+  font-size: 40px;
+}
+
+h2#invest-smart {
+  font-size: 30px;
+}
+
+.flexbox {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  padding-left: 5rem;
+}
+
+#first-div {
+  padding: 5rem;
+  margin-top: -150px;
+}
+
+/* #button {
+    padding: 2rem;
+} */
+
+button {
+  margin-top: 25px;
+  background-color: #3671e9;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  padding: 14px 40px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Rubik", sans-serif;
+  cursor: pointer;
+}
+
+/* p {
+    padding-top: 2rem;
+} */
+
+#first-div,
+#invest-smart,
+p {
+  line-height: 2;
+  /* padding: 1rem; */
+}
+
+#second-div {
+  padding-right: 10rem;
+}
