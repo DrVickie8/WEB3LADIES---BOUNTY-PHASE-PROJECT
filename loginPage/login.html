@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRAPPO Investments</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <header>
+      <nav>
+        <img src="../linkedPages/Oval.svg" alt="logo" width="25px" />
+        <h2>CRAPPO</h2>
+        <div class="vertical-line"></div>
+        <!-- <img
+          src="../linkedPages/moon-removeBG.png"
+          class="moon"
+          onclick="myFunction()"
+          width="20px"
+        /> -->
+      </nav>
+    </header>
+    <div class="wrapper">
+      <!-- <h1>CRAPPO Login</h1> -->
+      <div class="flexbox">
+        <div class="first">
+          <h1>CRAPPO Login</h1>
+          <form action="">
+            <label for="email-phone">Email/Phone Number</label>
+
+            <input
+              type="text"
+              type="number"
+              id="email-phone"
+              autocomplete="off"
+            />
+          </form>
+          <button id="next">Next</button>
+          <p class="or">or</p>
+          <button class="button" id="google">
+            <img
+              src="../linkedPages/Google_io/favicon-16x16.png"
+              alt="Google logo"
+              id="G-flavicon"
+            />
+            <a href="">Continue with Google</a>
+          </button>
+          <button id="apple">
+            <img
+              src="../linkedPages/Applefavicon_io (1)/favicon-16x16.png"
+              alt="Apple logo"
+              id="A-flavicon"
+            />
+            <a href="">Continue with Apple</a>
+          </button>
+
+          <p class="create" id="lower">
+            <a href="#" id="account">Create a CRAPPO Account</a>
+          </p>
+        </div>
+        <div class="second">
+          <img src="./qr-code.svg" alt="QR code" width="200px" id="qrcode" />
+          <h3>Log in with QR code</h3>
+          <p class="scan">
+            Scan this code with the
+            <a href="#" id="app" class="mobileapp">CRAPPO mobile app</a> to log
+            in instantly.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer>&copy;2021 CRAPPO. All rights reserved.</footer>
+    <script src="./login.js"></script>
+  </body>
+</html>
