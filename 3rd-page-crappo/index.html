@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Crappo</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="text-1">
+            <h1 class="check-t">Check how much you can earn</h1>
+            <p class="hash-rate-text">Let’s check your hash rate to see how much you will earn
+                today, <br> Exercitation veniam consequat sunt nostrud amet.</p>
+        </div>
+        <div class="calculate-1">
+            <div class="calculate-top">
+                <input type="text" placeholder="Enter your hash rate" />
+                <input list="rates" name="rate" id="rate" value="TH/s" />
+                <datalist id="rates">
+                    <option value="TH/s" selected></option>
+                </datalist>
+                <button class="calculate-btn">Calculate</button>
+            </div>
+        </div>
+    </div>
+    <div class="calculate-2">
+        <div class="calculate-bottom">
+            <p class="est-text">Estimated 24 Hour Revenue:</p>
+            <h3>0.055 130 59 ETH <span class="dol-text">($1275)</span></h3>
+            <p class="rev-text">Revenue will change based on mining difficulty and Ethereum
+                price.</p>
+        </div>
+        <div class="text-2">
+            <h1 class="trade">Trade securely and market the high <br> growth cryptocurrencies.</h1>
+
+            <div class="row currencies">
+                <div class=" col-3 container-btc">
+                    <img src="/3rd-page-crappo/images/btc-logo.svg" class="btc-img" alt="btc-logo">
+                    <div class="label">
+                        <img class="label-img" src="/3rd-page-crappo/images/Btc-label.svg" alt="">
+                    </div>
+                    <p class="btc-text">Digital currency in which a record of <br> transactions is maintained.</p>
+                    <button class="start-mining">Start Mining <span> <img src="/3rd-page-crappo/images/chevron-right.svg" class="chevron"
+                                alt="Right Icon" /></span> </button>
+                </div>
+                <div class=" col-3 container-eth">
+                    <img src="/3rd-page-crappo/images/eth-logo.svg" class="eth-img" alt="eth-logo">
+
+                    <div class="label">
+                        <img class="label-img" src="/3rd-page-crappo/images/eth-label.svg" alt="">
+                    </div>
+                    <p class="eth-text">Blockchain technology to create and run <br> decentralized digital applications.
+                    </p>
+                    <div class="chevron-icon-container">
+                        <img class="right" src="/3rd-page-crappo/images/chevron-right.svg" alt="Right Icon" />
+                    </div>
+                </div>
+                <div class=" col-3  container-ltc ">
+                    <img src="/3rd-page-crappo/images/ltc logo.svg" class="ltc-img" alt="ltc-logo">
+                    <div class="label">
+                        <img class="label-img" class="right" src="/3rd-page-crappo/images/ltc-label.svg" alt="">
+                    </div>
+                    <p class="ltc-text">Cryptocurrency that enables instant <br> payments to anyone in the world.</p>
+                    <div class="chevron-icon-container">
+                        <img class="right" src="/3rd-page-crappo/images/chevron-right.svg" alt="Right Icon" />
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

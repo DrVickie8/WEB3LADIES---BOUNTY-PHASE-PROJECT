@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+footer {
+    background: #0D0D2B;
+    padding-top: 1rem;
+    font-family: 'Rubik', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+    line-height: 2rem;
+
+} 
+.Start {
+    background-color: #3671E9;
+    display: flex;
+    border-radius: 1rem;
+    padding: 3rem;
+    margin: 0 4rem ;
+    margin-bottom: 4rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section {
+    background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+}
+
+.mine img{
+    position: absolute;
+    right: 50rem;
+    bottom: 28rem;
+}
+input {
+    width: 20rem;
+    border-right:#3671E9;
+    border-left: #3671E9;
+    border-top:#3671E9;
+    border-bottom: 2px solid white;
+    background: #3671E9;
+}
+
+button {
+    border-radius: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    color: black;
+    background: white;
+}
+
+.bttn img {
+    position: absolute;
+}
+.foot {
+    display: flex;
+    padding-top: 4rem;
+    justify-content: space-around;
+}
+
+h1{
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+h2 {
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+h3 {
+    font-weight: 400;
+}
+
+.foot-box {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    padding: 0 4rem;
+    justify-content: space-between;
+}
+
+.box-2 img {
+  padding: 3rem;
+}
+
+/* ===================================================================================================PHONE SCREEN==================================================================================================================================================== */
+
