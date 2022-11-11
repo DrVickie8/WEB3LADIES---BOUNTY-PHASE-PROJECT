@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-nav {
-}
-
 body {
   width: 100%;
   height: 100vh;
@@ -160,5 +157,5 @@ p {
 footer {
   color: #828282;
   text-align: center;
-  margin-top: 5px;
+  margin-top: 5rem;
 }
