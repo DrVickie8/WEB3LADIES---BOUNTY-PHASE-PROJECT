@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create a free account | CRAPPO</title>
+    <link rel="stylesheet" href="./login.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <!-- Header with nav bar that contains the logo and Company's name -->
+    <header class="hide-scrollbar">
+      <nav>
+        <img
+          src="../linkedPages/PAGEfavicon_io (1)/favicon-16x16.png"
+          alt="CRAPPO logo"
+        />
+        <h2>CRAPPO</h2>
+      </nav>
+    </header>
+    <!-- Main FORM -->
+    <div class="center">
+      <img src="../RegistrationPage/D.png" alt="shapes" id="shapes" />
+      <img src="../RegistrationPage/u.svg" alt="water" id="water" />
+      <form action="" action="#">
+        <h1>CRAPPO Login</h1>
+        <fieldset class="main">
+          <label for="personal-email"
+            >Personal Email
+            <input
+              type="email"
+              name="personal-email"
+              name="personal-email"
+              required
+              autocomplete="off"
+          /></label>
+          <label for="password" class="password"
+            >Password
+            <input
+              type="password"
+              name="password"
+              id="password"
+              pattern="[a-z0-5]{8,}"
+              required
+              autocomplete="off"
+            />
+            <i class="fa fa-eye" aria-hidden="true" id="toggle-eye" style="font-size: 24px;"></i>
+          </label>
+
+          <!-- <select name="" id="">
+            <option value=""></option>
+            <option value=""></option>
+        </select> -->
+          <!-- <label for="referral"
+            >Referral ID (Optional)
+            <input type="text" name="referral" id="referral"
+          /></label>
+        </fieldset>
+        <fieldset>
+          <label for="terms">
+            <input type="checkbox" name="agree" id="agree" class="inline" required/>
+            I have read and agree to CRAPPO's
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Terms of Service </a
+            >and
+            <a href="http://" target="_blank" rel="noopener noreferrer"
+              >Privacy Policy.</a
+            >
+          </label>
+          <label for="updates">
+            <input type="checkbox" name="updates" id="updates" class="inline" required />
+            I agree to receive marketing updates from CRAPPO.</label
+          > -->
+          <input type="submit" value="LOGIN" id="submit" />
+          <label for="updates">
+            <input type="checkbox" name="updates" id="updates" class="inline" required />
+            Remember password</label
+          >
+        </fieldset>
+        <fieldset>
+          <p>
+            Don't have an account?
+            <a
+              href="../RegistrationPage/landingPage.html"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+               create a CRAPPO account</a
+            >
+          </p>
+        </fieldset>
+      </form>
+    </div>
+    <footer>&copy;2021 CRAPPO. All rights reserved</footer>
+  </body>
+  <script src="./login.js"></script>
+</html>
