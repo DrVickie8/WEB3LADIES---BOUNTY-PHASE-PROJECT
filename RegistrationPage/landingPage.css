@@ -6,9 +6,6 @@
   box-sizing: border-box;
 }
 
-nav {
-}
-
 body {
   width: 100%;
   height: 100vh;
@@ -99,7 +96,7 @@ input {
 
 .password {
   position: relative;
-  
+
 }
 
 #toggle-eye {
@@ -108,6 +105,8 @@ input {
   /* left: 10px; */
   bottom: 70px;
   margin-right: 12px;
+  cursor: pointer;
+
 }
 
 .inline {
