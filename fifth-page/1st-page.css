@@ -1,0 +1,33 @@
+#fifth-page{
+    background-color: #2b076e;
+    color: #e0e0e0;
+    padding: 4em ;
+  
+  }
+  
+  .growth{
+    padding: 4em 0;
+  }
+  .stat-text {
+    padding: 4em 0;
+  }
+  .btn-learn-blue, .growth-learn-blue{
+    background-color: #3671e9;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: "Rubik", sans-serif;
+    cursor: pointer;
+  }
+  
+  .growth-learn{
+    padding: 4em 0;
+  }
+  
+  
