@@ -665,6 +665,7 @@ li {
   padding: 15px;
   border-radius: 10px;
   font-size: 18px;
+  /* scroll-behavior: smooth; */
 }
 
 #top-btn:hover {
