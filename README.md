@@ -16,9 +16,13 @@ Recreate CRAPPO website and include login and registration page.
 
 ## Team Members 👩‍💻👩‍💻👩‍💻👩‍💻👩‍💻
 - [@macassy](https://github.com/Rozymacassy)
--[@Techk_e4ma](https://github.com/Glorypaul-pixel)
--[@Ashley](https://github.com/ashleynda)
--[@Samuel Justina](https://github.com/Jayteewebsyt)
+
+- [@Techk_e4ma](https://github.com/Glorypaul-pixel)
+
+- [@Ashley](https://github.com/ashleynda)
+
+- [@Samuel Justina](https://github.com/Jayteewebsyt)
+
 
 ## Environment Variables
 
