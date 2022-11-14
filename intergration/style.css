@@ -15,13 +15,15 @@
   left: 0;
   align-items: center;
   padding: 1rem 2rem;
-  margin-right: 2rem;
+  /* margin-right: 2rem; */
   /* overflow: hidden; */
 }
 
 nav h2 {
-  margin: 2rem;
-  color: #1181e8;
+  margin-right: 22rem;
+  padding-left:20px ;
+  /* margin: 2rem; */
+  color: #fbfcfe;
 }
 
 nav ul {
@@ -46,15 +48,6 @@ a:focus {
   border-radius: 30px;
   text-decoration: none;
 }
-
-/* .burger-menu {
-  color: #0d0d2b;
-  font-size: 2rem;
-  border: 0;
-  background-color: transparent;
-  cursor: pointer;
-  display: none;
-} */
 
 .container-main {
   position: relative;
@@ -676,7 +669,7 @@ body::-webkit-scrollbar {
   scrollbar-width: none;
 }
 
-.hamburger {
+/* .hamburger {
 
   cursor: pointer;
   display: none;
@@ -690,12 +683,12 @@ body::-webkit-scrollbar {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   background-color: white;
-}
+} */
 
-@media screen and (max-width: 720px) {
+/* @media screen and (max-width: 720px) { */
   /* For tablets and mobile phones: */
 
-  .hamburger {
+  /* .hamburger {
     display: block;
   }
 
@@ -733,4 +726,4 @@ body::-webkit-scrollbar {
     left: 0;
   }
 
-}
+} */
