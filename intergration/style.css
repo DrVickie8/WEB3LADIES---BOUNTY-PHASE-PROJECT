@@ -56,6 +56,15 @@ a:focus {
   transform: rotate(90deg);
 }
 
+.burger-menu {
+  color: #0D0D2B;
+  font-size: 2rem;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+  display: none;
+}
+
 .container-main {
   position: relative;
   display: flex;
